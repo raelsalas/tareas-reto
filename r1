@@ -1,0 +1,10 @@
+# r1 = el usuario debe ingresar los siguientes datos: nombre, apellidos, telefono, email
+# al ingresar, el programa debe dar la bienvenida con el mensaje hola + nombre completo dle usuario + email
+
+first_name               = input ( 'escriba su nombre:')
+last_name                = input ( 'escriba su apellido:')
+numero_telefono          = input ( 'escriba su telefono:')
+correo_electronico       = input ( 'escriba su email:')
+full_name                = first_name + ' ' + last_name
+
+print( 'hola' + ' ' + full_name + ' en breve recibiras un correo electronico a: ' + correo_electronico)
